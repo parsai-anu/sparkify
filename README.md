@@ -18,3 +18,6 @@ The data exploration helped us identify the below features for the model buildin
 6. No. of time a user click on Add to Playlist
 7. No. of time a user clicks on Thumbs up
 8. No. of times a user clicks on Thumbs down
+
+Blog Link:
+https://medium.com/@parsai.anu/sparkify-project-udacity-nanodegree-2b98949271ab
