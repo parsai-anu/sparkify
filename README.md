@@ -19,5 +19,20 @@ The data exploration helped us identify the below features for the model buildin
 7. No. of time a user clicks on Thumbs up
 8. No. of times a user clicks on Thumbs down
 
+Summary:
+We have successfully built a churn prediction model using Random Forest with validation accuracy of 89% and F1 of 0.86. Our solution takes the log information, cleans it and transforms it into new features at user level. It then uses RF to make Churn/No Churn Classification at user level.
+
 Blog Link:
 https://medium.com/@parsai.anu/sparkify-project-udacity-nanodegree-2b98949271ab
+
+
+Following libraries have been used in the project:
+1.pyspark.sql
+2.pyspark.ml
+3.matplotlib
+4.pandas
+
+The following file present in the repository:
+Sparkify.ipynb- This file contains the analytics pipeline from Data Exploration to Model Building
+
+
