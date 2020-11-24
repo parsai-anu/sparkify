@@ -22,8 +22,12 @@ We have created 8 new features at user level which came significant during explo
 
 ## Result on Test and Validation Set
 
-![alt text](http://url/to/img.png)
-![alt text](http://url/to/img.png)
+<img src="https://github.com/parsai-anu/sparkify/blob/main/Test_Result.PNG" width="300" height="300"/>
+<img src="https://github.com/parsai-anu/sparkify/blob/main/Val%20Result.PNG" width="300" height="300"/>
+
+
+
+
 
 
 ## Blog Link:
