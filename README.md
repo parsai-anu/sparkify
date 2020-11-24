@@ -21,6 +21,7 @@ We have succefully built an end-to-end analytics pipeline for predicting churn o
 We have created 8 new features at user level which came significant during exploration and were intuitive. We have chosen two models - Logistic Regression and Random Forest- performed hyper-parameter tuning of these models using 3-fold cross validation on 80% Train set. Then we checked the model built on Test set. Based on the F1 score of the model on Test set we have chosen Random forest that showed F1 of 0.87. Below is the confuion matrix for the test set prediction using Random Forest. We have also validated our model using a 10% validation set.
 
 ## Result on Test and Validation Set
+
 The model showed an F1 score of 0.87 on Test set for Random Forest
 
 <img src="https://github.com/parsai-anu/sparkify/blob/main/Test_Result.PNG" width="350" height="300"/>
@@ -28,6 +29,13 @@ The model showed an F1 score of 0.87 on Test set for Random Forest
 It showed an F1 of 0.86 on the validation set consisitent with the Test set
 
 <img src="https://github.com/parsai-anu/sparkify/blob/main/Val%20Result.PNG" width="350" height="300"/>
+
+## Conclusion
+The entire pipline was predciting user churn for a music application has been built using pyspark using the mini version of the dataset provided by Udacity. We have evaluated multiple models and found out that random forest was the best model for the given dataset. However, there is scope of improvement in the model perforamnce when it is tried on full dataset and multiple other models can also be tried such as the neural nets.
+
+## Acknowledgement
+This project is part of the Udacity Data Science Nanodegree program. All the dataset and spark platform has been provided by Udacity.
+
 
 ## Blog Link:
 https://medium.com/@parsai.anu/sparkify-project-udacity-nanodegree-2b98949271ab
